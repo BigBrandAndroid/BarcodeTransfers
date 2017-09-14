@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.elijah.barcodetransfers.DropOffs"
+    tools:showIn="@layout/activity_drop_offs">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="vertical"
+            android:weightSum="0.23">
+            <EditText
+                android:id="@+id/barcodeGet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/brand"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Brand"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/toStore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Qty"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/partNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Part No" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/dropOffListView"
+            android:layout_width="match_parent"
+            android:layout_height="286dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.57" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02766TI" />
+    <RadioButton
+        android:id="@+id/rd_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd"
+        android:text="62053C2" />
+    <RadioButton
+        android:id="@+id/rd_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_2"
+        android:text="8U66228" />
+    <RadioButton
+        android:id="@+id/rd_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_3"
+        android:text="91482U1" />
+    <RadioButton
+        android:id="@+id/rd_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_4"
+        android:text="6W00950" />
+
+    <RadioButton
+        android:id="@+id/rd_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_5"
+        android:text="44806C2" />
+    <RadioButton
+        android:id="@+id/rd_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_6"
+        android:text="5HMY565" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_7"
+        android:layout_centerInParent="true"
+        android:text="OK" />
+</RelativeLayout>
